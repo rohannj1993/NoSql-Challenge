@@ -19,5 +19,26 @@ const thoughtcontrol ={
             res.json(error)
         })
     },
+    createthought(req,res){
+        Thought.create(req.body)
+        .then((dbThought)=>{
+            return User.findOneAndUpdate (
+            {_id:req.body.userId},
+            {$push:{thoughts:dbThought._id}},
+            {new:true}
+            )
+        })
+        .then((dbUser)=>{
+            if(!dbUser){
+                 res.json({
+                    message:"Thought was created,but no associated user!"
+                })
+            }
+            res.json({message:"Thought was created"})
+        })
+        .catch((error)=>{
+            res.json(error)
+        })
+    }
 }
 module.exports=thoughtcontrol
