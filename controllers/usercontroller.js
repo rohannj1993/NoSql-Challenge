@@ -73,7 +73,7 @@ const userController = {
         }
 
         // BONUS: get ids of user's `thoughts` and delete them all
-        return Thought.deleteMany({ _id: { $in: dbUserData.thoughts } });
+        return Thought.deleteMany({ _id: { $in: dbUser.thoughts } });
       })
       .then(() => {
         res.json({ message: 'User and associated thoughts deleted!' });
