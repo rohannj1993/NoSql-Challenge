@@ -19,7 +19,7 @@ const thoughtcontrol ={
             res.json(error)
         })
     },
-    createthought(req,res){
+    createThought(req,res){
         Thought.create(req.body)
         .then((dbThought)=>{
             return User.findOneAndUpdate (
