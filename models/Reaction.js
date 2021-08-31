@@ -1,4 +1,4 @@
-const {Schema, model}=require("mongoose")
+const {Schema, Types}=require("mongoose")
 const dateFormat = require("../utils/date")
 const reactionSchema = new Schema ({
  reactionId:{
@@ -19,9 +19,6 @@ const reactionSchema = new Schema ({
        default:Date.now,
        get:timestamp=>dateFormat(timestamp)
    }
-   
-
-
 },
 {
  toJSON:{
