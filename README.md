@@ -29,4 +29,19 @@ Express
 
 6. Can find users by ID
 
-7.
+7. Create thoughts
+
+8. Get thoughts
+
+
+## Needs Improvement-
+1.
+
+2.
+
+3.
+
+4.
+
+5.
+
