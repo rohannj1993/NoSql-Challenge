@@ -29,4 +29,4 @@ Express
 
 6. Can find users by ID
 
-7. Can delete users
+7.
