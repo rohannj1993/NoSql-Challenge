@@ -29,9 +29,7 @@ Express
 
 6. Can find users by ID
 
-7. Create thoughts
 
-8. Get thoughts
 
 
 ## Needs Improvement-
@@ -42,5 +40,11 @@ Express
 3. Add friend
 
 4. Need to also be able to delete reaction
+
+5. Need to avoid error messages when creating thoughts
+
+
+## Video Link-
+https://drive.google.com/file/d/1ssUssWbApUVfINISk8DhgObUzfuNbFDK/view
 
 
