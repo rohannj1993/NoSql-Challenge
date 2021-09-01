@@ -35,13 +35,12 @@ Express
 
 
 ## Needs Improvement-
-1.
+1. Update user
 
-2.
+2. Create Reaction
 
-3.
+3. Add friend
 
-4.
+4. Need to also be able to delete reaction
 
-5.
 
